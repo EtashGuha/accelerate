@@ -659,6 +659,7 @@ class DynamoBackend(str, BaseEnum):
     TORCHXLA_TRACE_ONCE = "TORCHXLA_TRACE_ONCE"
     IPEX = "IPEX"
     TVM = "TVM"
+    RDU_BACKEND = "RDU_BACKEND"
 
 
 class LoggerType(BaseEnum):
